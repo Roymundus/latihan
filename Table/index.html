@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Table HTML</title>
+</head>
+
+<body>
+    <h1>Tabel HTML</h1>
+    <ul>
+        <li>Tabel HTML itu digunakan untuk mengatur data ke dalam baris dan kolom</li>
+        <li>Dalam Tabel HTML itu terdiri dari kolom dan baris</li>
+        <li>Baris itu yang horizontal (<i>row</i>)</li>
+        <li>Kolom itu yang vertikal</li>
+        <li>Untuk membuat tabel di HTML ini kita bisa membuatnya didalam tag <table></table>
+        </li>
+    </ul>
+    <h5>Contohnya :</h5>
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+        </tr>
+
+        <tr>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+        </tr>
+
+        <tr>
+            <td>Baris 3, Kolom 1</td>
+            <td>baris 3, Kolom 2</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h3>Kali ini kita akan melihat penggunaan caption pada tabel</h3>
+    <p>contohnya : </p>
+    <table border="1">
+        <caption>List Pembelian Barang</caption>
+        <colgroup>
+            <col style="background-color:aquamarine;" span="1">
+            <col style="background-color:blanchedalmond ;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Nama Barang</th>
+                <th>Harga Barang</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2 Pensil</td>
+                <td>12.000</td>
+            </tr>
+
+            <tr>
+                <td>3 Pulpen</td>
+                <td>23.000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total Harga</td>
+                <td>35.000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

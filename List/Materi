@@ -1,0 +1,8 @@
+Kita bisa membuat list dalam HTML. List sendiri itu sebuah daftar.
+Kita bisa membuat list dalam HTML menggunakan tag ol, ul, dan dl
+
+Ordered List 
+    Untuk membuat Ordered list (list ter-urut) di HTML, kita bisa menggunakan 
+    tag ol, dan untuk membuat list itemnya kita bisa menggunakan tag li didalam tag ol
+Unordered List 
+    tag ul 

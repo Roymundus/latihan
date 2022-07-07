@@ -1,0 +1,16 @@
+Tautan HTML adalah hyperlink. Ketika kita mnge-klik sebuah hyperlink (tautan) kita akan melompat ke dokumen lain atau
+bagian tertentu
+membuat Hyperlink ini bisa dengan tag a/a.
+
+Didalam atribut href="..." kita bisa menuliskan beberapa jenis :
+External Link, contoh : href = "Instagram.com/roymunduss_"
+Internal Link, contoh : href="index2.html"
+jika berada di dalam satu folder tidak perlu masu ke folder lagi.
+Page Anchor, contoh : href= "#bagian3", untuk yang mau di reference kan dikasih id
+# diikuti dengan nama id nya
+
+
+di dalam atribut target=".."
+_blank, itu untuk membuk atautan ke tab baru
+-self, itu untuk membuka di tautan halaman yang sama
+dan lain-lain
